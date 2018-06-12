@@ -15,10 +15,9 @@ import {Avatar} from '../../components';
 import {SocialBar} from '../../components';
 let moment = require('moment');
 
-
 export class Article extends React.Component {
   static navigationOptions = {
-    title: 'Article View'.toUpperCase()
+    title: 'Sobre o Vinho'.toUpperCase()
   };
 
   constructor(props) {

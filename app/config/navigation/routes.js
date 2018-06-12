@@ -5,31 +5,31 @@ import _ from 'lodash';
 export const MainRoutes = [
   {
     id: 'LoginMenu',
-    title: 'Auth',
+    title: 'Autenticação',
     icon: FontIcons.login,
     screen: Screens.LoginMenu,
     children: [
       {
         id: 'Login1',
-        title: 'Login V1',
+        title: 'Login',
         screen: Screens.LoginV1,
         children: []
       },
       {
         id: 'Login2',
-        title: 'Login V2',
+        title: 'Login',
         screen: Screens.LoginV2,
         children: []
       },
       {
         id: 'SignUp',
-        title: 'Sign Up',
+        title: 'Inscrever-se',
         screen: Screens.SignUp,
         children: []
       },
       {
         id: 'password',
-        title: 'Password Recovery',
+        title: 'Recuperar senha',
         screen: Screens.PasswordRecovery,
         children: []
       },
@@ -43,43 +43,43 @@ export const MainRoutes = [
     children: [
       {
         id: 'ProfileV1',
-        title: 'User Profile V1',
+        title: 'Perfil',
         screen: Screens.ProfileV1,
         children: []
       },
       {
         id: 'ProfileV2',
-        title: 'User Profile V2',
+        title: 'Perfil',
         screen: Screens.ProfileV2,
         children: []
       },
       {
         id: 'ProfileV3',
-        title: 'User Profile V3',
+        title: 'Perfil',
         screen: Screens.ProfileV3,
         children: []
       },
       {
         id: 'ProfileSettings',
-        title: 'Profile Settings',
+        title: 'Configurações do perfil',
         screen: Screens.ProfileSettings,
         children: []
       },
       {
         id: 'Notifications',
-        title: 'Notifications',
+        title: 'Notificações',
         screen: Screens.Notifications,
         children: []
       },
       {
         id: 'Contacts',
-        title: 'Contacts',
+        title: 'Contatos',
         screen: Screens.Contacts,
         children: []
       },
       {
         id: 'Feed',
-        title: 'Feed',
+        title: 'Vinhos',
         screen: Screens.Feed,
         children: []
       },
@@ -87,43 +87,43 @@ export const MainRoutes = [
   },
   {
     id: 'ArticlesMenu',
-    title: 'Articles',
+    title: 'Vinhos',
     icon: FontIcons.article,
     screen: Screens.ArticleMenu,
     children: [
       {
         id: 'Articles1',
-        title: 'Article List V1',
+        title: 'Carta de vinhos',
         screen: Screens.Articles1,
         children: []
       },
       {
         id: 'Articles2',
-        title: 'Article List V2',
+        title: 'Carta de vinhos',
         screen: Screens.Articles2,
         children: []
       },
       {
         id: 'Articles3',
-        title: 'Article List V3',
+        title: 'Carta de vinhos',
         screen: Screens.Articles3,
         children: []
       },
       {
         id: 'Articles4',
-        title: 'Article List V4',
+        title: 'Carta de vinhos',
         screen: Screens.Articles4,
         children: []
       },
       {
         id: 'Blogposts',
-        title: 'Blogposts',
+        title: 'Recomendações',
         screen: Screens.Blogposts,
         children: []
       },
       {
         id: 'Article',
-        title: 'Article View',
+        title: 'Sobre o Vinho',
         screen: Screens.Article,
         children: []
       }
@@ -131,7 +131,7 @@ export const MainRoutes = [
   },
   {
     id: 'MessagingMenu',
-    title: 'Messaging',
+    title: 'Mensagens',
     icon: FontIcons.mail,
     screen: Screens.MessagingMenu,
     children: [
@@ -143,13 +143,13 @@ export const MainRoutes = [
       },
       {
         id: 'ChatList',
-        title: 'Chat List',
+        title: 'Chat com o compradorde vinho',
         screen: Screens.ChatList,
         children: []
       },
       {
         id: 'Comments',
-        title: 'Comments',
+        title: 'Comentários',
         screen: Screens.Comments,
         children: []
       },
@@ -168,18 +168,6 @@ export const MainRoutes = [
     },]
   },
   {
-    id: 'WalkthroughMenu',
-    title: 'Walkthroughs',
-    icon: FontIcons.mobile,
-    screen: Screens.WalkthroughMenu,
-    children: [{
-      id: 'Walkthrough',
-      title: 'Walkthrough',
-      screen: Screens.WalkthroughScreen,
-      children: []
-    }]
-  },
-  {
     id: 'EcommerceMenu',
     title: 'Ecommerce',
     icon: FontIcons.card,
@@ -187,14 +175,14 @@ export const MainRoutes = [
     children: [
       {
         id: 'Cards',
-        title: 'Cards',
+        title: 'Cartões',
         icon: FontIcons.card,
         screen: Screens.Cards,
         children: []
       },
       {
         id: 'AddToCardForm',
-        title: 'Add Card Form',
+        title: 'Adicionar forma de pagamento',
         icon: FontIcons.addToCardForm,
         screen: Screens.AddToCardForm,
         children: []
@@ -205,7 +193,7 @@ export const MainRoutes = [
   {
     id: 'NavigationMenu',
     icon: FontIcons.navigation,
-    title: 'Navigation',
+    title: 'Navegação',
     screen: Screens.NavigationMenu,
     children: [
       {
@@ -237,13 +225,13 @@ export const MainRoutes = [
   },
   {
     id: 'OtherMenu',
-    title: 'Other',
+    title: 'Outros',
     icon: FontIcons.other,
     screen: Screens.OtherMenu,
     children: [
       {
         id: 'Settings',
-        title: 'Settings',
+        title: 'Configurações',
         screen: Screens.Settings,
         children: []
       }
@@ -251,7 +239,7 @@ export const MainRoutes = [
   },
   {
     id: 'Themes',
-    title: 'Themes',
+    title: 'Temas',
     icon: FontIcons.theme,
     screen: Screens.Themes,
     children: []
@@ -260,9 +248,9 @@ export const MainRoutes = [
 
 let menuRoutes = _.cloneDeep(MainRoutes);
 menuRoutes.unshift({
-  id: 'GridV2',
+  id: 'Articles4',
   title: 'Start',
-  screen: Screens.GridV2,
+  screen: Screens.Articles4,
   children: []
 },);
 

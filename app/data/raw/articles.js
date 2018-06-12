@@ -98,40 +98,40 @@ const articles = [{
   'photo': require('../img/photo45.png'),
   'type': 'fact',
   'time': -5665,
-  'header': 'Smile and Frown',
-  'text': 'It takes 17 muscles to smile and 43 to frown.',
+  'header': 'Raices Crianza D.O. Valdepeñas 2014',
+  'text': 'R$ 146,90',
   'comments': []
 }, {
   'id': 8,
   'photo': require('../img/photo46.png'),
   'type': 'fact',
   'time': -8373,
-  'header': 'Interesting Fact',
-  'text': 'Dolphins sleep with one eye open.',
+  'header': 'Infame Reserva D.O Valle Central Red Blend 2015',
+  'text': 'R$ 88,90',
   'comments': []
 }, {
   'id': 9,
   'photo': require('../img/photo47.png'),
   'type': 'fact',
   'time': -565,
-  'header': 'Elephant',
-  'text': 'Elephant is one of the few mammals that can\'t jump.',
+  'header': 'Partridge Gran Reserva Mendoza Cabernet Sauvignon 2015',
+  'text': 'R$ 98,90',
   'comments': []
 }, {
   'id': 10,
   'photo': require('../img/photo48.png'),
   'type': 'fact',
   'time': -52365,
-  'header': 'Cold Water',
-  'text': 'Cold water weighs less than hot water.',
+  'header': 'Château Margaux Premier Grand Cru Classé A.O.C. Margaux 2008',
+  'text': 'R$ 5.796,00',
   'comments': []
 }, {
   'id': 11,
   'photo': require('../img/photo49.png'),
   'type': 'fact',
   'time': -1295,
-  'header': 'Our Eyes',
-  'text': 'You blink over 10,000,000 times a year.',
+  'header': 'Canepa Novísimo Cabernet Sauvignon 2017 375 ml',
+  'text': 'R$ 277,25',
   'comments': []
 }, {
   'id': 12,
