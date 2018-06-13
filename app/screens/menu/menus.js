@@ -38,7 +38,7 @@ export class SocialMenu extends React.Component {
 
 export class ArticleMenu extends React.Component {
   static navigationOptions = {
-    title: 'Articles'.toUpperCase()
+    title: 'Vinhos'.toUpperCase()
   };
   render() {
     return (
