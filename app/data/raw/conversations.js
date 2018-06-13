@@ -12,32 +12,32 @@ export const Conversations = [
         id: 1,
         time: -240,
         type: 'in',
-        text: 'Yeah, not bad, actually I finally got a call back from that job that I interviewed for, and guess what? I got it!'
+        text: 'Sim, nada mal, na verdade eu finalmente recebi uma ligação do trabalho para o qual eu entrevistei, e adivinhe? Entendi!'
       },
       {
         id: 2,
         time: -230,
         type: 'out',
-        text: 'Awesome! Yeah, well done, that’s really great to hear. Do you start right away?'
+        text: 'Impressionante! Sim, bem feito, isso é ótimo de ouvir. Você começa imediatamente?'
       },
       {
         id: 3,
         time: -100,
         type: 'out',
-        text: 'Well, uhm yes and no, I go in for training tomorrow, but I don’t really start until next week. ' +
-        'Do you have some time this weekend, maybe we could get together?'
+        text: 'Bem, sim, sim e não, eu vou treinar amanhã, mas eu não começo até a próxima semana. '+
+                 'Você tem algum tempo neste fim de semana, talvez pudéssemos ficar juntos?'
       },
       {
         id: 4,
         time: -45,
         type: 'in',
-        text: 'I’ve got a lot planned this weekend, just running around, doing loads of stuff, but Friday’s pretty open.'
+        text: 'Eu tenho muito planejado neste fim de semana, apenas correndo, fazendo um monte de coisas, mas sexta-feira é bem aberta.'
       },
       {
         id: 5,
         time: -5,
         type: 'out',
-        text: 'That works pretty well for me!'
+        text: 'Isso funciona muito bem para mim!'
       }]
   },
   {
@@ -47,7 +47,7 @@ export const Conversations = [
         id: 0,
         type: 'out',
         time: -300,
-        text: 'I have no idea what to buy for Mary for her birthday.'
+        text: 'Não faço ideia do que comprar para Mary no aniversário dela.'
       },
       {
         id: 1,

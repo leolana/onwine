@@ -16,12 +16,6 @@ export const MainRoutes = [
         children: []
       },
       {
-        id: 'Login2',
-        title: 'Login',
-        screen: Screens.LoginV2,
-        children: []
-      },
-      {
         id: 'SignUp',
         title: 'Inscrever-se',
         screen: Screens.SignUp,
@@ -42,21 +36,9 @@ export const MainRoutes = [
     screen: Screens.SocialMenu,
     children: [
       {
-        id: 'ProfileV1',
-        title: 'Perfil',
-        screen: Screens.ProfileV1,
-        children: []
-      },
-      {
         id: 'ProfileV2',
         title: 'Perfil',
         screen: Screens.ProfileV2,
-        children: []
-      },
-      {
-        id: 'ProfileV3',
-        title: 'Perfil',
-        screen: Screens.ProfileV3,
         children: []
       },
       {
@@ -92,38 +74,20 @@ export const MainRoutes = [
     screen: Screens.ArticleMenu,
     children: [
       {
-        id: 'Articles1',
-        title: 'Carta de vinhos',
-        screen: Screens.Articles1,
-        children: []
-      },
-      {
-        id: 'Articles2',
-        title: 'Carta de vinhos',
-        screen: Screens.Articles2,
-        children: []
-      },
-      {
-        id: 'Articles3',
-        title: 'Carta de vinhos',
-        screen: Screens.Articles3,
-        children: []
-      },
-      {
         id: 'Articles4',
         title: 'Carta de vinhos',
         screen: Screens.Articles4,
         children: []
       },
       {
-        id: 'Blogposts',
+        id: 'Recomendacoes',
         title: 'Recomendações',
         screen: Screens.Blogposts,
         children: []
       },
       {
         id: 'Article',
-        title: 'Sobre o Vinho',
+        title: 'Sobre a OnWine',
         screen: Screens.Article,
         children: []
       }
@@ -136,14 +100,8 @@ export const MainRoutes = [
     screen: Screens.MessagingMenu,
     children: [
       {
-        id: 'Chat',
-        title: 'Chat',
-        screen: Screens.Chat,
-        children: []
-      },
-      {
         id: 'ChatList',
-        title: 'Chat com o compradorde vinho',
+        title: 'Chat com o produtor do vinho',
         screen: Screens.ChatList,
         children: []
       },

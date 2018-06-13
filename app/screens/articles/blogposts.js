@@ -15,7 +15,7 @@ let moment = require('moment');
 
 export class Blogposts extends React.Component {
   static navigationOptions = {
-    title: 'Blogposts'.toUpperCase()
+    title: 'Recomendacoes'.toUpperCase()
   };
 
   constructor(props) {
